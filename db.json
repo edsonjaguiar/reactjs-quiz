@@ -1,6 +1,7 @@
 {
     "bg": "https://productcrafters.io/blog/wp-content/uploads/2019/05/React-Native-Apps-Illustration.jpg",
-    "title": "ReactJs Quiz",
+    "title": "ReactJS Quiz",
+    "icon": "https://www.pinclipart.com/picdir/big/387-3873569_catalyst-react-js-logo-svg-clipart.png",
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
         {

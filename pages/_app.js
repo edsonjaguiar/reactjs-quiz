@@ -33,8 +33,13 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-          <title>{db.title}</title>
-          <link rel="shortcut icon" href={db.bg} />
+        <title>{db.title}</title>
+        <link rel="shortcut icon" href={db.icon} />
+      </Head>
+
+      <Head>
+        <meta property="og:image" content={db.bg} />
+        <meta property="og:title" content={db.title} />
       </Head>
 
       <ThemeProvider theme={theme}>
