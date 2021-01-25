@@ -36,7 +36,7 @@ export default function App({ Component, pageProps }) {
           <title>{db.title}</title>
           <link rel="shortcut icon" href={db.bg} />
       </Head>
-      
+
       <ThemeProvider theme={theme}>
         <GlobalStyle />
         <Component {...pageProps} />

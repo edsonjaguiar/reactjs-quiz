@@ -19,7 +19,6 @@ export const QuizContainer = styled.div`
 
 export default function Home() {
   return (
-    <>
       <QuizBackground backgroundImage={db.bg}>
         <QuizContainer>
           <Widget>
@@ -34,6 +33,5 @@ export default function Home() {
         </QuizContainer>
         <GitHubCorner projectUrl="https://github.com/edsonjaguiar"/>
       </QuizBackground>
-    </>
   )
 }
