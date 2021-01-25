@@ -5,13 +5,6 @@ import Footer from '../src/components/Footer'
 import QuizBackground from '../src/components/QuizBackground'
 import GitHubCorner from '../src/components/GitHubCorner'
 
-//const BackgroundImage = styled.div`
-    //background-image: url(${db.bg});
-   // flex: 1;
-    //background-size: cover;
-    //background-position: center;
-//`;
-
 export const QuizContainer = styled.div`
     width: 100%;
     max-width: 350px;
@@ -26,19 +19,21 @@ export const QuizContainer = styled.div`
 
 export default function Home() {
   return (
-    <QuizBackground backgroundImage={db.bg}>
-      <QuizContainer>
-        <Widget>
-          <Widget.Header>
-            <h1>ReactJS Quiz</h1>
-          </Widget.Header>
-          <Widget.Content>
-            <p>Teste</p>
-          </Widget.Content>
-        </Widget>
-        <Footer />
-      </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/edsonjaguiar"/>
-    </QuizBackground>
+    <>
+      <QuizBackground backgroundImage={db.bg}>
+        <QuizContainer>
+          <Widget>
+            <Widget.Header>
+              <h1>ReactJS Quiz</h1>
+            </Widget.Header>
+            <Widget.Content>
+              <p>Teste</p>
+            </Widget.Content>
+          </Widget>
+          <Footer />
+        </QuizContainer>
+        <GitHubCorner projectUrl="https://github.com/edsonjaguiar"/>
+      </QuizBackground>
+    </>
   )
 }
