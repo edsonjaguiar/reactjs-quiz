@@ -27,7 +27,7 @@ export default function Home() {
             </Widget.Header>
 
             <Widget.Content>
-              <p>{db.description}</p>
+              <p>Teste</p>
             </Widget.Content>
 
           </Widget>

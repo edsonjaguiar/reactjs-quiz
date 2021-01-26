@@ -8,7 +8,7 @@
 
 ### 🧾 Sobre
 
-<p>Esse projeto está sendo desenvolvido durante a imersão React, da <a href="https://www.alura.com.br/" title="Alura Cursos" target="_blank">Alura</a>. O projeto é um Quiz, com várias perguntas sobre determinado assunto, e o usuário tem que acertar o máximo de perguntas que conseguir.</p>
+<p>Esse projeto foi desenvolvido durante a imersão React, da <a href="https://www.alura.com.br/" title="Alura Cursos" target="_blank">Alura</a>. O projeto é um Quiz, com várias perguntas sobre determinado assunto, e o usuário tem que acertar o máximo de perguntas que conseguir.</p>
 
 ---
 
