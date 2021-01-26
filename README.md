@@ -1,5 +1,5 @@
 <h1>
-    <img src="./public/g.png">
+    <img src="./public/titulo.png">
 </h1>
 
 <h1>
