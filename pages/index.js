@@ -25,9 +25,11 @@ export default function Home() {
             <Widget.Header>
               <h1>ReactJS Quiz</h1>
             </Widget.Header>
+
             <Widget.Content>
-              <p>Teste</p>
+              <p>{db.description}</p>
             </Widget.Content>
+
           </Widget>
           <Footer />
         </QuizContainer>
