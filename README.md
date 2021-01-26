@@ -1,4 +1,4 @@
-<h1 style="text-align: center">
+<h1>
     <img src="./public/titulo.png">
 </h1>
 
