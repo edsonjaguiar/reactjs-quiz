@@ -2,46 +2,34 @@
     "bg": "https://productcrafters.io/blog/wp-content/uploads/2019/05/React-Native-Apps-Illustration.jpg",
     "title": "ReactJS Quiz",
     "icon": "https://www.pinclipart.com/picdir/big/387-3873569_catalyst-react-js-logo-svg-clipart.png",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "description": "Teste os seus conhecimentos sobre ReactJS e vamos ver o quanto você sabe",
     "questions": [
         {
-            "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-            "title": "Como fazer um seletor por id via CSS?",
+            "image": "https://thumbs.gfycat.com/BestMeagerHoki-size_restricted.gif",
+            "title": "O que é React?",
             "description": "Essa é pra aquecer",
             "answer": 1,
             "alternatives": [
-            ".elemento",
-            "*elemento",
-            "#elemento",
-            "%elemento"
+            "React é uma biblioteca javascript",
+            "React é uma linguagem de programação",
+            "React é um framework javascript"
             ]
         },
         {
             "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
             "title": "Como fazer um seletor por id via CSS?",
             "description": "Essa é pra aquecer",
-            "answer": 2,
+            "answer": 0,
             "alternatives": [
             ".elemento",
             "*elemento",
             "#elemento",
             "%elemento"
             ]
-        },
-    {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
-        "answer": 0,
-        "alternatives": [
-
-            "background: linear-gradient(#e66465, #9198e5);",
-            "background: gradient(#e66465, #9198e5);"
-        ]
-    }
+        }
     ],
     "external": [
-        ""
+        "https://reactjs-quiz.edsonjaguiar.vercel.app/"
     ],
     "theme": {
         "colors": {

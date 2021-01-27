@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import { useRouter } from 'next/router';
 import db from '../db.json';
 import Widget from '../src/components/Widget';
@@ -7,18 +6,9 @@ import Footer from '../src/components/Footer';
 import QuizBackground from '../src/components/QuizBackground';
 import GitHubCorner from '../src/components/GitHubCorner';
 import QuizLogo from '../src/components/QuizLogo';
-
-export const QuizContainer = styled.div`
-    width: 100%;
-    max-width: 350px;
-    padding-top: 45px;
-    margin: auto 10%;
-
-    @media screen and (max-width: 500px){
-        margin: auto;
-        padding: 15px;
-    }
-`;
+import QuizContainer from '../src/components/QuizContainer';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 
 export default function Home() {
   const router = useRouter();
@@ -38,21 +28,21 @@ export default function Home() {
           </Widget.Content>
 
           <Widget.Content>
-            <form onSubmit={function (e) {
+            <form onSubmit={(e) => {
               e.preventDefault();
 
               router.push(`/quiz?name=${name}`);
             }}
             >
-              <Widget.Input
+              <Input
+                name="user"
                 placeholder="Digita seu nome aí pra jogar :)"
-                onChange={(e) => {
-                  setName(e.target.value);
-                }}
+                onChange={(e) => setName(e.target.value)}
+                value={name}
               />
-              <Widget.Button type="submit" disabled={name.length === 0}>
+              <Button type="submit" disabled={name.length === 0}>
                 Jogar
-              </Widget.Button>
+              </Button>
 
             </form>
 
@@ -61,7 +51,7 @@ export default function Home() {
         </Widget>
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/edsonjaguiar" />
+      <GitHubCorner projectUrl="https://github.com/edsonjaguiar/reactjs-quiz" />
     </QuizBackground>
   );
 }
