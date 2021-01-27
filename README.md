@@ -3,7 +3,7 @@
 </h1>
 
 <h1>
-    <img src="./public/bg.png">
+    <img src="./public/background.png">
 </h1>
 
 ### 🧾 Sobre
