@@ -49,6 +49,16 @@ export default function Home() {
           </Widget.Content>
 
         </Widget>
+
+        <Widget>
+
+          <Widget.Content>
+            <h3>Quizes da Galera</h3>
+            <p>Em breve!</p>
+          </Widget.Content>
+
+        </Widget>
+
         <Footer />
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/edsonjaguiar/reactjs-quiz" />

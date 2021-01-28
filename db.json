@@ -8,7 +8,7 @@
             "image": "https://thumbs.gfycat.com/BestMeagerHoki-size_restricted.gif",
             "title": "O que é React?",
             "description": "Essa é pra aquecer",
-            "answer": 1,
+            "answer": 0,
             "alternatives": [
             "React é uma biblioteca javascript",
             "React é uma linguagem de programação",
@@ -16,15 +16,55 @@
             ]
         },
         {
-            "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-            "title": "Como fazer um seletor por id via CSS?",
-            "description": "Essa é pra aquecer",
+            "image": "https://www.bacancytechnology.com/blog/wp-content/uploads/2019/06/ezgif.com-crop-1.gif",
+            "title": "Quem são os criadores do React?",
+            "description": "Afinal, quem criou o React?",
             "answer": 0,
             "alternatives": [
-            ".elemento",
-            "*elemento",
-            "#elemento",
-            "%elemento"
+            "Facebook",
+            "Google",
+            "Microsoft"
+            ]
+        },
+        {
+            "image": "https://i.gifer.com/Tz5I.gif",
+            "title": "O que são Hooks?",
+            "description": "Essa é pra aquecer",
+            "answer": 1,
+            "alternatives": [
+            "",
+            ""
+            ]
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoNAhykTeRSUgHMF4r8qHmeM33izZTIHJFqw&usqp=CAU",
+            "title": "Quando usar um componente de classe e um componente de função",
+            "description": "Essa é pra aquecer",
+            "answer": 1,
+            "alternatives": [
+            "Quando seu componente tiver que realizar tarefas mais complexas use componente de função, caso contrário use componente de classe",
+            "Quando seu componente tiver que realizar tarefas mais complexas use componentes de classe, caso contrário use componente de função"
+            ]
+        },
+        {
+            "image": "https://redwerk.com/wp-content/uploads/2019/04/React_cover.png",
+            "title": "O que é estado em React? e qual sua finalidade?",
+            "description": "Essa é pra aquecer",
+            "answer": 1,
+            "alternatives": [
+            "É um objeto onde armazenam os dados e que não podem se alterar ao longo do ciclo de vida de um componente.",
+            "É um objeto onde armazenam os dados e que podem se alterar ao longo do ciclo de vida de um componente."
+            ]
+        },
+        {
+            "image": "https://cdn-images-1.medium.com/max/716/1*uK67NK0sDkJSD32pwZbquA.jpeg",
+            "title": "Qual a diferença entre tratamento de eventos em HTML e React?",
+            "description": "Essa é pra aquecer",
+            "answer": 1,
+            "alternatives": [
+            "Não tem diferença alguma",
+            "No HTML o evento deve ser declarado em lowercase, já no React deve ser declarado a convenção camelCase",
+            "Ambos usam a declaração em maiúsculas"
             ]
         }
     ],
@@ -38,7 +78,7 @@
             "border": "#015f92",
             "mainBg": "#1C1814",
             "contrastText": "#FFFFFF",
-            "wrong": "#FF5722",
+            "wrong": "#f3123f",
             "success": "#4CAF50"
     },
         "borderRadius": "4px"
