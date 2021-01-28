@@ -6,10 +6,11 @@ export default function Loader(props) {
     <ContentLoader
       speed={2}
       width="100%"
-      height={480}
+      height={472}
       viewBox="0 0 100% 450"
       backgroundColor="#333333"
       foregroundColor="#282828"
+      // eslint-disable-next-line react/jsx-props-no-spreading
       {...props}
     >
       {' '}
