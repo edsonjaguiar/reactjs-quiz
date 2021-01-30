@@ -16,6 +16,17 @@
             ]
         },
         {
+            "image": "https://cdn-images-1.medium.com/max/716/1*uK67NK0sDkJSD32pwZbquA.jpeg",
+            "title": "Quais as limitações do React?",
+            "description": "Agora ficou fácil, né?",
+            "answer": 0,
+            "alternatives": [
+            "React não é um framework completo, portanto, geralmente não funciona sozinho",
+            "React não é uma biblioteca",
+            "Não há limitação alguma"
+            ]
+        },
+        {
             "image": "https://www.bacancytechnology.com/blog/wp-content/uploads/2019/06/ezgif.com-crop-1.gif",
             "title": "Quem são os criadores do React?",
             "description": "Afinal, quem criou o React?",
@@ -27,19 +38,40 @@
             ]
         },
         {
-            "image": "https://i.gifer.com/Tz5I.gif",
-            "title": "O que são Hooks?",
-            "description": "Essa é pra aquecer",
-            "answer": 1,
+            "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--jaFWlQCW--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/bqc1gncxdhau0zfuxqmp.png",
+            "title": "Os navegadores conseguem interpretar o JSX?",
+            "description": "Os navegadores são capazes?",
+            "answer": 0,
             "alternatives": [
-            "",
-            ""
+            "Não. Afinal, JSX não é código javascript comum",
+            "Sim. O código javascript é passado para o navegador"
+            ]
+        },
+        {
+            "image": "https://redux.js.org/img/redux-logo-landscape.png",
+            "title": "O que é Redux?",
+            "description": "Afinal, o que é Redux?",
+            "answer": 2,
+            "alternatives": [
+            "É uma linguagem de programação",
+            "É um framework",
+            "É uma biblioteca"
+            ]
+        },
+        {
+            "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--KRscCBa9--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://i.morioh.com/2934a8d84c.png",
+            "title": "Qual a sintaxe correta?",
+            "description": "ClassName ou class?",
+            "answer": 0,
+            "alternatives": [
+            "return <img className='logo' src'logo.png' ",
+            "return <img class='logo' src'logo.png'"
             ]
         },
         {
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoNAhykTeRSUgHMF4r8qHmeM33izZTIHJFqw&usqp=CAU",
             "title": "Quando usar um componente de classe e um componente de função",
-            "description": "Essa é pra aquecer",
+            "description": "Classe ou função?",
             "answer": 1,
             "alternatives": [
             "Quando seu componente tiver que realizar tarefas mais complexas use componente de função, caso contrário use componente de classe",
@@ -48,23 +80,34 @@
         },
         {
             "image": "https://redwerk.com/wp-content/uploads/2019/04/React_cover.png",
-            "title": "O que é estado em React? e qual sua finalidade?",
-            "description": "Essa é pra aquecer",
-            "answer": 1,
+            "title": "Qual a diferença entre React e React-native?",
+            "description": "React e React-native?",
+            "answer": 2,
             "alternatives": [
-            "É um objeto onde armazenam os dados e que não podem se alterar ao longo do ciclo de vida de um componente.",
-            "É um objeto onde armazenam os dados e que podem se alterar ao longo do ciclo de vida de um componente."
+            "Não há diferença",
+            "A diferença é que o React é voltado para aplicações WEB, já o React-native é voltada para aplicações WEB",
+            "React é usada para criar interfaces de usuário para aplicações WEB. Já o React-native é voltada para mobile, que compila código nativo"
             ]
         },
         {
             "image": "https://cdn-images-1.medium.com/max/716/1*uK67NK0sDkJSD32pwZbquA.jpeg",
             "title": "Qual a diferença entre tratamento de eventos em HTML e React?",
-            "description": "Essa é pra aquecer",
+            "description": "Html e React?",
             "answer": 1,
             "alternatives": [
             "Não tem diferença alguma",
             "No HTML o evento deve ser declarado em lowercase, já no React deve ser declarado a convenção camelCase",
             "Ambos usam a declaração em maiúsculas"
+            ]
+        },
+        {
+            "image": "https://i.gifer.com/Tz5I.gif",
+            "title": "Você deve apenas chamar os Hooks a partir",
+            "description": "Hooks!",
+            "answer": 1,
+            "alternatives": [
+            "De função javascript regulares",
+            "De componentes de função React"
             ]
         }
     ],

@@ -1,13 +1,13 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import db from '../db.json';
-import Widget from '../src/components/Widget';
-import QuizBackground from '../src/components/QuizBackground';
-import QuizLogo from '../src/components/QuizLogo';
-import QuizContainer from '../src/components/QuizContainer';
-import AlternativesForm from '../src/components/AlternativesForm';
-import Button from '../src/components/Button';
-import Loader from '../src/components/Loader';
+import db from '../../db.json';
+import Widget from '../../src/components/Widget';
+import QuizBackground from '../../src/components/QuizBackground';
+import QuizLogo from '../../src/components/QuizLogo';
+import QuizContainer from '../../src/components/QuizContainer';
+import AlternativesForm from '../../src/components/AlternativesForm';
+import Button from '../../src/components/Button';
+import Loader from '../../src/components/Loader';
 
 function ResultWidget({ results }) {
   return (
@@ -18,7 +18,7 @@ function ResultWidget({ results }) {
 
       <Widget.Content>
         <p>
-          Você acertou
+          Parabéns, você acertou
           {' '}
           {/* {results.reduce((somatoriaAtual, resultAtual) => {
             const isAcerto = resultAtual === true;
@@ -32,7 +32,15 @@ function ResultWidget({ results }) {
           perguntas
 
         </p>
-        <ul>
+
+        <img
+          src="https://i.pinimg.com/originals/36/3a/9b/363a9b4346c42b7fa94988e32c57078f.gif"
+          alt="Nice"
+          width="100%"
+          height="30%"
+        />
+
+        {/* <ul>
           {results.map((result, index) => (
             <li key={`result__${result}`}>
               #
@@ -43,7 +51,7 @@ function ResultWidget({ results }) {
               {result === true ? 'Acertou' : 'Errou'}
             </li>
           ))}
-        </ul>
+          </ul> */}
       </Widget.Content>
 
     </Widget>
@@ -161,10 +169,10 @@ const screenStates = {
 export default function QuizPage() {
   const [screenState, setScreenState] = React.useState(screenStates.LOADING);
   const [results, setResults] = React.useState([]);
-  const totalQuestions = db.questions.length;
   const [currentQuestion, setCurrentQuestion] = React.useState(0);
   const questionIndex = currentQuestion;
   const question = db.questions[questionIndex];
+  const totalQuestions = db.questions.length;
 
   function addResult(result) {
     setResults([
